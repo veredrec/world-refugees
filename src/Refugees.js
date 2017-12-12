@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CountryList from './CountryList';
 import Navbar from './Navbar';
+import CountryMenu from './CountryMenu';
 import './style/Refugees.css';
 
 class Refugees extends Component {
@@ -8,6 +9,7 @@ class Refugees extends Component {
     return (
       <div className="refugees-app">
         <Navbar />
+        <CountryMenu />
         <div className="country-section">
           <CountryList />
         </div>
