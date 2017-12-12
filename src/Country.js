@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './Country.css';
+import './style/Country.css';
 
 class Country extends Component {
   render() {
     const { title, img, popul, refugees, percent, est } = this.props;
     return (
-      <div>
+      <div className="country-item">
         <div className="main">
-          <h2> Country: {title} </h2>
-          <img src={img} alt={title} />
+          <h2 class="country-title"> {title} </h2>
+          <img className="country-img" src={img} alt={title} />
         </div>
         <div className="text">
           <h3> Population: {popul} </h3>
