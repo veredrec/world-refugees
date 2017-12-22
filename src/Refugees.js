@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CountryList from './CountryList';
 import Navbar from './Navbar';
+import People from './People';
 import CountryMenu from './CountryMenu';
 import './style/Refugees.css';
 
@@ -13,6 +14,7 @@ class Refugees extends Component {
         <div className="country-section">
           <CountryList />
         </div>
+        <People />
       </div>
     );
   }
