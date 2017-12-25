@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Country from './Country';
-import './style/Country.css';
-import './style/CountryList.css';
+import './../style/Country.css';
+import './../style/CountryList.css';
 
 class CountryList extends Component {
   static defaultProps = {
     countries: [
       {
         title: 'Turkey',
-        img: 'turkey.jpg',
+        img: 'assets/turkey.jpg',
         popul: '79,510,000',
         refugees: '2,900,000',
         percent: '3.64%',
@@ -17,7 +17,7 @@ class CountryList extends Component {
       },
       {
         title: 'Pakistan',
-        img: 'pakistan.jpg',
+        img: 'assets/pakistan.jpg',
         popul: '207,774,520',
         refugees: '1,400,000',
         percent: '0.67%',
@@ -25,7 +25,7 @@ class CountryList extends Component {
       },
       {
         title: 'Lebanon',
-        img: 'lebanon.jpg',
+        img: 'assets/lebanon.jpg',
         popul: '6,006,668',
         refugees: '1,000,000',
         percent: '16.6%',
@@ -33,7 +33,7 @@ class CountryList extends Component {
       },
       {
         title: 'Israel',
-        img: 'israel.jpeg',
+        img: 'assets/israel.jpeg',
         popul: '8,785,020',
         refugees: '45,000',
         percent: '0.51%',
