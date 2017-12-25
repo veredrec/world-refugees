@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style/Country.css';
+import './../style/Country.css';
 
 class Country extends Component {
   render() {
