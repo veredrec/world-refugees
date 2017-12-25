@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style/index.css';
-import Refugees from './Refugees';
+import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import './style/index.css';
 
-ReactDOM.render(<Refugees />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
