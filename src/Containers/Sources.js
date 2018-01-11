@@ -5,7 +5,9 @@ class Sources extends Component {
   render() {
     return (
       <div className="sources-section">
-        <h2 className="sources-title"> I WANT TO KNOW MORE </h2>
+        <h2 className="sources-title">
+          CHECK THESE RESOURCES FOR MORE INFORMATION
+        </h2>
         <ul className="sources-menu">
           <li className="source-link">
             <img
