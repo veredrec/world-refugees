@@ -13,6 +13,7 @@ class Sources extends Component {
             <img
               className="source-image"
               src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2010/05/wikipedia1.png"
+              alt="Wikipedia - Refugees"
             />
             <a className="source" href="https://en.wikipedia.org/wiki/Refugee">
               Wikipedia - Refugees
@@ -22,6 +23,7 @@ class Sources extends Component {
             <img
               className="source-image"
               src="http://unkt.org/wp-content/uploads/2017/08/unhcr-1.png"
+              alt="The UN Refugee Agency"
             />
             <a className="source" href="http://www.unhcr.org/en-ie/">
               The UN Refugee Agency
@@ -31,6 +33,7 @@ class Sources extends Component {
             <img
               className="source-image"
               src="http://www.therefugeeproject.org/imgs/facebook.jpg"
+              alt="The Refugee Project"
             />
             <a className="source" href="http://www.therefugeeproject.org/">
               The Refugee Project
