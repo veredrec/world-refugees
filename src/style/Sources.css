@@ -1,6 +1,7 @@
 .sources-title {
   color: #444;
   text-align: center;
+  letter-spacing: 0.05rem;
 }
 .sources-menu {
   list-style-type: none;
