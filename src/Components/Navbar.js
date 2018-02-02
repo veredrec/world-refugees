@@ -21,7 +21,7 @@ class Navbar extends Component {
               <Link to={'/Help'}>How Can I help?</Link>
             </li>
             <li className="menu-item">
-              <Link to={'/About'}>About</Link>
+              <Link to={'/After'}>After the War</Link>
             </li>
           </ul>
         </nav>
