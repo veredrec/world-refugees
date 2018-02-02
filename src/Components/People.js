@@ -13,7 +13,7 @@ while (i < 50) {
 class People extends Component {
   constructor(props) {
     super(props);
-    this.state = { color: 'red' };
+    // this.state = { color: 'red' };
     //   setInterval(() => {
     //     const figures = this.state.figures.slice();
     //     const randomFigure = Math.floor(Math.random() * figures.length);
