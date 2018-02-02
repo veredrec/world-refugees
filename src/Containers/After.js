@@ -34,7 +34,7 @@ class After extends Component {
   render() {
     return (
       <div className="about-section">
-        <h2 class="about-title"> ABOUT </h2>
+        <h2 class="about-title">After The War</h2>
         <div className="poem">
           <p className="about-text"> {PoemA} </p>
           <p className="about-text"> {PoemB} </p>
